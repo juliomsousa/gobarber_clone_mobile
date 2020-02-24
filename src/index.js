@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { StatusBar } from 'react-native';
 import { enableScreens } from 'react-native-screens';
 
 import Routes from './routes';
@@ -9,5 +9,10 @@ import Routes from './routes';
 export default function App() {
 	enableScreens();
 
-	return <Routes />;
+	return (
+		<>
+			<StatusBar barStyle="light-content" backgroundColor="#7159c1" />
+			<Routes />
+		</>
+	);
 }
