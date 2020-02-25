@@ -13,7 +13,7 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 
 import SelectProvider from './pages/New/SelectProvider';
-import SelectDate from './pages/New/SelectDate';
+import SelectDateTime from './pages/New/SelectDateTime';
 import Confirm from './pages/New/Confirm';
 
 export default (isSigned = false) =>
@@ -31,7 +31,7 @@ export default (isSigned = false) =>
 							screen: createStackNavigator(
 								{
 									SelectProvider,
-									SelectDate,
+									SelectDateTime,
 									Confirm,
 								},
 								{
