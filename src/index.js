@@ -6,16 +6,16 @@ import { enableScreens } from 'react-native-screens';
 import './config/ReactotronConfig';
 
 import { store, persistor } from './store';
-import Routes from './routes';
+import App from './App';
 
-export default function App() {
+export default function Index() {
 	enableScreens();
 
 	return (
 		<Provider store={store}>
 			<PersistGate persistor={persistor} loading={null}>
 				<StatusBar barStyle="light-content" backgroundColor="#7159c1" />
-				<Routes />
+				<App />
 			</PersistGate>
 		</Provider>
 	);
