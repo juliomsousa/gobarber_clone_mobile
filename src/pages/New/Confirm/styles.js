@@ -25,6 +25,7 @@ export const Time = styled.Text`
 	font-size: 18px;
 	color: rgba(255, 255, 255, 0.6);
 `;
+
 export const SubmitButton = styled(Button)`
 	align-self: stretch;
 	margin-top: 20px;
