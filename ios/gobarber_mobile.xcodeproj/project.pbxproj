@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D1B6DCC4845781B44677C97 /* libPods-gobarber_mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A2C9FC0EBD5E064387358A /* libPods-gobarber_mobile-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* gobarber_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gobarber_mobileTests.m */; };
-		951124EB1C04E1BD90C1A480 /* libPods-gobarber_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EDC8C88C1D331E743C0B97 /* libPods-gobarber_mobile.a */; };
-		A88D4930557933FB47E9BFDA /* libPods-gobarber_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 955A61AFB6AA44C119DF9FCD /* libPods-gobarber_mobileTests.a */; };
-		C92845CC2F29292AD430DC76 /* libPods-gobarber_mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9061E711A6B57CE81099011A /* libPods-gobarber_mobile-tvOS.a */; };
-		D38F978F6A2BD901C326C5F8 /* libPods-gobarber_mobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF40DD02C2FD2B5044E377E /* libPods-gobarber_mobile-tvOSTests.a */; };
+		89A2FD82803C22A465F12422 /* libPods-gobarber_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2180ED98B32E1C9E9C94B0 /* libPods-gobarber_mobileTests.a */; };
+		8E6931715472D4CD03B72689 /* libPods-gobarber_mobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8771E10ADABE32C825DE355 /* libPods-gobarber_mobile-tvOSTests.a */; };
+		F94B55A14D15B7F90312A910 /* libPods-gobarber_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54528361C4DAEB82DB52070 /* libPods-gobarber_mobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gobarber_mobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gobarber_mobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gobarber_mobile/main.m; sourceTree = "<group>"; };
-		142189EE980F58C7176B2624 /* Pods-gobarber_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile/Pods-gobarber_mobile.release.xcconfig"; sourceTree = "<group>"; };
-		1F08316C667C25BCDEAB3ADB /* Pods-gobarber_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobileTests/Pods-gobarber_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AF7BC2CD4EB1882B2B7A4CE /* Pods-gobarber_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile/Pods-gobarber_mobile.release.xcconfig"; sourceTree = "<group>"; };
+		29FBCD0DAC523A13E6A9C6CC /* Pods-gobarber_mobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOS/Pods-gobarber_mobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* gobarber_mobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gobarber_mobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* gobarber_mobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gobarber_mobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31DF8AD0A1BEF1EDE65800C9 /* Pods-gobarber_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobileTests/Pods-gobarber_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
-		67EDC8C88C1D331E743C0B97 /* libPods-gobarber_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9061E711A6B57CE81099011A /* libPods-gobarber_mobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9276BABDA01D57E85AAFAB6C /* Pods-gobarber_mobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOS/Pods-gobarber_mobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		955A61AFB6AA44C119DF9FCD /* libPods-gobarber_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABE513A0CEFE9A87ABD4AD25 /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOSTests/Pods-gobarber_mobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAF40DD02C2FD2B5044E377E /* libPods-gobarber_mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28121A0961031C99C722A01 /* Pods-gobarber_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile/Pods-gobarber_mobile.debug.xcconfig"; sourceTree = "<group>"; };
-		E8D2F679E4F7CE51887EB05A /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOSTests/Pods-gobarber_mobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE55AA510AB42D1D2836198 /* Pods-gobarber_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile/Pods-gobarber_mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		74A4755E2A7CFD9838A1E073 /* Pods-gobarber_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobileTests/Pods-gobarber_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		872AAEB9887164C7D235D10E /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOSTests/Pods-gobarber_mobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A29DC75059B4857568022978 /* Pods-gobarber_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobileTests/Pods-gobarber_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9FE7744DAE3C8879C0C701B /* Pods-gobarber_mobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOS/Pods-gobarber_mobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A2C9FC0EBD5E064387358A /* libPods-gobarber_mobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC350DC8D4698FAA343CF49C /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOSTests/Pods-gobarber_mobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F004B793F1C326EB9EF8C19D /* Pods-gobarber_mobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber_mobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gobarber_mobile-tvOS/Pods-gobarber_mobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		EE2180ED98B32E1C9E9C94B0 /* libPods-gobarber_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54528361C4DAEB82DB52070 /* libPods-gobarber_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8771E10ADABE32C825DE355 /* libPods-gobarber_mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber_mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88D4930557933FB47E9BFDA /* libPods-gobarber_mobileTests.a in Frameworks */,
+				89A2FD82803C22A465F12422 /* libPods-gobarber_mobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951124EB1C04E1BD90C1A480 /* libPods-gobarber_mobile.a in Frameworks */,
+				F94B55A14D15B7F90312A910 /* libPods-gobarber_mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92845CC2F29292AD430DC76 /* libPods-gobarber_mobile-tvOS.a in Frameworks */,
+				1D1B6DCC4845781B44677C97 /* libPods-gobarber_mobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38F978F6A2BD901C326C5F8 /* libPods-gobarber_mobile-tvOSTests.a in Frameworks */,
+				8E6931715472D4CD03B72689 /* libPods-gobarber_mobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1050FE1BF0E7F725835756F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DE55AA510AB42D1D2836198 /* Pods-gobarber_mobile.debug.xcconfig */,
+				1AF7BC2CD4EB1882B2B7A4CE /* Pods-gobarber_mobile.release.xcconfig */,
+				A9FE7744DAE3C8879C0C701B /* Pods-gobarber_mobile-tvOS.debug.xcconfig */,
+				29FBCD0DAC523A13E6A9C6CC /* Pods-gobarber_mobile-tvOS.release.xcconfig */,
+				EC350DC8D4698FAA343CF49C /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */,
+				872AAEB9887164C7D235D10E /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */,
+				74A4755E2A7CFD9838A1E073 /* Pods-gobarber_mobileTests.debug.xcconfig */,
+				A29DC75059B4857568022978 /* Pods-gobarber_mobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* gobarber_mobile */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				67EDC8C88C1D331E743C0B97 /* libPods-gobarber_mobile.a */,
-				9061E711A6B57CE81099011A /* libPods-gobarber_mobile-tvOS.a */,
-				CAF40DD02C2FD2B5044E377E /* libPods-gobarber_mobile-tvOSTests.a */,
-				955A61AFB6AA44C119DF9FCD /* libPods-gobarber_mobileTests.a */,
+				F54528361C4DAEB82DB52070 /* libPods-gobarber_mobile.a */,
+				E5A2C9FC0EBD5E064387358A /* libPods-gobarber_mobile-tvOS.a */,
+				F8771E10ADABE32C825DE355 /* libPods-gobarber_mobile-tvOSTests.a */,
+				EE2180ED98B32E1C9E9C94B0 /* libPods-gobarber_mobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,7 +189,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				3B5D692A9AF54D11BDF4C986 /* Resources */,
-				F58DA691B56E705FEA87B5A4 /* Pods */,
+				1050FE1BF0E7F725835756F5 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -191,22 +207,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F58DA691B56E705FEA87B5A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D28121A0961031C99C722A01 /* Pods-gobarber_mobile.debug.xcconfig */,
-				142189EE980F58C7176B2624 /* Pods-gobarber_mobile.release.xcconfig */,
-				9276BABDA01D57E85AAFAB6C /* Pods-gobarber_mobile-tvOS.debug.xcconfig */,
-				F004B793F1C326EB9EF8C19D /* Pods-gobarber_mobile-tvOS.release.xcconfig */,
-				ABE513A0CEFE9A87ABD4AD25 /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */,
-				E8D2F679E4F7CE51887EB05A /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */,
-				31DF8AD0A1BEF1EDE65800C9 /* Pods-gobarber_mobileTests.debug.xcconfig */,
-				1F08316C667C25BCDEAB3ADB /* Pods-gobarber_mobileTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,7 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gobarber_mobileTests" */;
 			buildPhases = (
-				7F6AA2F0545BE91C63E5A370 /* [CP] Check Pods Manifest.lock */,
+				E0BCDBC652CA47A319309FAE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -233,13 +233,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gobarber_mobile" */;
 			buildPhases = (
-				5AF49BD94FBF88CCCA99F11B /* [CP] Check Pods Manifest.lock */,
+				C61F635683F0A3DE3442B24B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FC4C259B02CA50BE2C7AC05D /* [CP] Copy Pods Resources */,
+				5794E7C35E483893A8B00FF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,7 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gobarber_mobile-tvOS" */;
 			buildPhases = (
-				25D636B5DDE84107F0509EE6 /* [CP] Check Pods Manifest.lock */,
+				EED259C3D2D1BAF9183ADA8E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -274,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gobarber_mobile-tvOSTests" */;
 			buildPhases = (
-				940E245A662303CC55350C62 /* [CP] Check Pods Manifest.lock */,
+				840886624A00C48B441190A7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -383,28 +383,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		25D636B5DDE84107F0509EE6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,73 +397,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5AF49BD94FBF88CCCA99F11B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F6AA2F0545BE91C63E5A370 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobileTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		940E245A662303CC55350C62 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC4C259B02CA50BE2C7AC05D /* [CP] Copy Pods Resources */ = {
+		5794E7C35E483893A8B00FF9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,6 +443,94 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber_mobile/Pods-gobarber_mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840886624A00C48B441190A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61F635683F0A3DE3442B24B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BCDBC652CA47A319309FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED259C3D2D1BAF9183ADA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gobarber_mobile-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -638,7 +638,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DF8AD0A1BEF1EDE65800C9 /* Pods-gobarber_mobileTests.debug.xcconfig */;
+			baseConfigurationReference = 74A4755E2A7CFD9838A1E073 /* Pods-gobarber_mobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -661,7 +661,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F08316C667C25BCDEAB3ADB /* Pods-gobarber_mobileTests.release.xcconfig */;
+			baseConfigurationReference = A29DC75059B4857568022978 /* Pods-gobarber_mobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -681,7 +681,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D28121A0961031C99C722A01 /* Pods-gobarber_mobile.debug.xcconfig */;
+			baseConfigurationReference = 3DE55AA510AB42D1D2836198 /* Pods-gobarber_mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -701,7 +701,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142189EE980F58C7176B2624 /* Pods-gobarber_mobile.release.xcconfig */;
+			baseConfigurationReference = 1AF7BC2CD4EB1882B2B7A4CE /* Pods-gobarber_mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -720,7 +720,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9276BABDA01D57E85AAFAB6C /* Pods-gobarber_mobile-tvOS.debug.xcconfig */;
+			baseConfigurationReference = A9FE7744DAE3C8879C0C701B /* Pods-gobarber_mobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -748,7 +748,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F004B793F1C326EB9EF8C19D /* Pods-gobarber_mobile-tvOS.release.xcconfig */;
+			baseConfigurationReference = 29FBCD0DAC523A13E6A9C6CC /* Pods-gobarber_mobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -776,7 +776,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABE513A0CEFE9A87ABD4AD25 /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EC350DC8D4698FAA343CF49C /* Pods-gobarber_mobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -803,7 +803,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8D2F679E4F7CE51887EB05A /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 872AAEB9887164C7D235D10E /* Pods-gobarber_mobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
